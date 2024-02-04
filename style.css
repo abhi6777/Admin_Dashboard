@@ -15,16 +15,10 @@ body {
 .dashboard {
   background-color: rgb(108, 108, 211);
   grid-row: 1 / max;
-  align-items: center;
-  justify-content: center;
-  gap: 1em;
   padding: 1em;
-}
-
-.dashboard h3 {
-  padding: 1em;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  align-content: start;
+  justify-items: start;
 }
 
 .dashboard ul,
@@ -43,15 +37,25 @@ body {
 }
 
 .logo {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
   align-items: center;
 }
 
 .dashboard div ul li img {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
+
+.alignDash {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
 /* Heading section */
 
 .heading {
@@ -74,6 +78,7 @@ body {
 
 .heading div input {
   border-radius: 20px;
+  padding: 5px;
 }
 
 .stack li {
@@ -91,6 +96,17 @@ body {
   width: 5rem;
   height: 2rem;
   border: 2px blue;
+  border-radius: 2em;
+}
+
+/* adding photos after completion */
+
+.heading div img {
+  width: 30px;
+  height: 30px;
+}
+
+.heading div img[alt="logo"] {
   border-radius: 2em;
 }
 
@@ -148,4 +164,12 @@ body {
   border-radius: 1em;
   height: auto;
   align-content: start;
+}
+
+/* after completion modifications */
+
+.announcement div div p {
+  display: grid;
+  align-content: center;
+  justify-items: center;
 }
