@@ -168,8 +168,17 @@ body {
 
 /* after completion modifications */
 
-.announcement div div p {
+.announcement div div p,
+.trending div div p {
   display: grid;
   align-content: center;
   justify-items: center;
+  border-bottom: 2px solid black;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.section div h2 {
+  margin: 20px;
+  align-self: center;
 }
