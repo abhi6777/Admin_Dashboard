@@ -2,6 +2,8 @@
 
 [View Live Project](https://abhi6777.github.io/Admin_Dashboard/)
 
+[![Preview](./images/readme.png)](https://abhi6777.github.io/Admin_Dashboard/)
+
 This is not dynamic website, It is a Static website.
 
 This project is an Admin Dashboard designed for managing various tasks and accessing different sections of an application. It includes features such as a navigation menu, user profile section, project listings, announcements, and trending topics.
